@@ -16,3 +16,9 @@ There's currently no external dependencies (so no `pip` / `uv` etc etc needed)
 ```
 ./run.sh
 ```
+
+## Test
+
+```
+./test.sh
+```

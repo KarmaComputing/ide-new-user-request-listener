@@ -17,7 +17,7 @@ fn main() {
         .ok()
         .unwrap_or(String::from("127.0.0.1"));
 
-    println!("Listen port is set to {}", port);
+    println!("Listening on {}:{}", bind_address, port);
 
     let listener = TcpListener::bind(format!("{bind_address}:{port}")).unwrap();
 
